@@ -1,4 +1,4 @@
-#include <stdio.h>
+nclude <stdio.h>
 
 /**
  * main - prints all possible different combinations of two digits
@@ -14,7 +14,8 @@ int main(void)
         {
             if (m > n)
             {
-                printf("%c%c", n, m);
+                putchar(n);
+                putchar(m);
                 if (n != 56 || m != 57)
                 {
                     putchar(',');
